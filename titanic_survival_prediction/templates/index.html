@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <h1>Titanic Survival Prediction</h1>
+       <form  method="post" action="/predict">
+        Passenger Class <select name="pclass">
+            <option value="1">First</option>
+            <option value="2">Second</option>
+            <option value="3">Third</option>
+        </select><br><br>
+        Age <input type="number" name="age"><br><br>
+        Fare<input type="number" name="fare"><br><br>
+        Gender <input type="radio" name="gender" value="01" >Male
+        <input type="radio" name="gender" value="10">Female<br><br>
+        <input type="submit" name="button">
+       </form>
+    </body>
+</html>
